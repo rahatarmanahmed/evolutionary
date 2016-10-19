@@ -1,0 +1,22 @@
+{
+  "name": "evolutionary",
+  "description": "A functional genetic algorithm library",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "author": "Rahat Ahmed",
+  "repository": "rahatarmanahmed/evolutionary",
+  "scripts": {
+    "lint": "standard",
+    "pretest": "npm run lint",
+    "test": "ava",
+    "prepublish": "npm run test"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "standard": "^8.4.0"
+  },
+  "dependencies": {
+    "ramda": "^0.22.1"
+  }
+}
