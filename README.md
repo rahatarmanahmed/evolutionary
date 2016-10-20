@@ -31,6 +31,10 @@ var evolve = Evolutionary({
 
 var population = evolve()
 var nextPopulation = evolve(population)
+
+// Population is sorted by fitness
+var fittest = population[0]
+
 // keep evolving to your heart's content
 ```
 
