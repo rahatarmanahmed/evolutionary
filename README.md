@@ -130,3 +130,24 @@ Selects two individuals using the `Select1.bestOfN(n)` selection behavior.
 ### `Select2.fittestAndRandom`
 
 Selects the fittest individual and a random individual from the population.
+
+## Generator
+
+This package also includes a convenience function to wrap your genetic algorithm as a generator:
+
+```
+const Evolutionary = require('evolutionary')
+const makeGenerator = require('evolutionary/generator')
+
+const evolve = Evolutionary({ ... })
+const done = (pop) => pop[0] == desiredSolution
+const generator = makeGenerator(evolve, done)
+
+generator.next()
+generator.next()
+generator.next()
+generator.next()
+
+// ...
+
+```
