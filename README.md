@@ -1,5 +1,7 @@
 # evolutionary [![Build Status](https://travis-ci.org/rahatarmanahmed/evolutionary.svg?branch=master)](https://travis-ci.org/rahatarmanahmed/evolutionary)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/rahatarmanahmed/evolutionary.svg)](https://greenkeeper.io/)
+
 A (more) functional genetic algorithm library. Designed to make as few assumptions as possible about how you want your genetic algorithm library to run.
 
 **Warning**: I wrote this in a day without tests in a kinda functional style. So it's probably buggy and not as performant as it could be. Use at your own risk.
